@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "IServ Dark Mode",
+    "version": "0.1",
+    "author": "d43m0nhLInt3r",
+    "description": "Dark Mode für IServ",
+    "icons": {
+        "48": "icons/isdm-48.png"
+    },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/isdm-48.png",
+    "default_title": "IServ Dark Mode",
+    "default_popup": "ui/index.html"
+  },
+    "content_scripts": [
+        {
+            "matches": ["https://*/iserv/*"],
+            "css": ["style.scss"]
+        }
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+          "strict_min_version": "60.0"
+        }
+      }
+}
