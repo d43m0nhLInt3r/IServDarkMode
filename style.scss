@@ -51,6 +51,13 @@ body {
 .list-group-item {
     background-color: #333 !important;
 }
+ul.dropdown-menu a {
+    background-color: #333 !important;
+    color: white !important;
+}
+.divider {
+    display: none !important;
+}
 .header-breadcrumb, .header-meta, .breadcrumb, .bc {
     background-color: #333 !important;
     color: white !important;
@@ -103,12 +110,23 @@ a:hover {
     background-color: #444 !important;
     color: white !important;
 }
+.warning td {
+    background-color: #e85757 !important;
+    color: black !important;
+}
+.success {
+    color: black !important;
+}
+.info td {
+    color: black !important;
+}
 .item-label {
     color: white !important;
 }
 .chat-overlay {
     background-color: #333 !important;
     color: white !important;
+    box-shadow: 0 0 9px 0 #555 !important;
 }
 .chat-select-header {
     background-color: #333 !important;
@@ -119,8 +137,17 @@ a:hover {
 .chat-select-button:hover {
     background-color: #444 !important;
 }
-.selectable {
-    background-color: #333 !important;
+div.date-container div {
+    background-color: #555 !important;
+}
+div.room-event div {
+    background-color: #555 !important;
+}
+.selectable:hover {
+    background-color: #444 !important;
+}
+.date {
+    color: white !important;
 }
 .message-line {
     color: white !important;
@@ -130,7 +157,19 @@ a:hover {
 }
 .form-control {
     background-color: #444 !important;
-    color: white !important;    
+    color: white !important;
+    border: none !important;    
+}
+.modal-header, .modal-content {
+    background-color: #333 !important;
+}
+.fc-toolbar, .table-bordered, div.fc div table tbody td{
+    background-color: #333 !important;
+    color: white !important;
+
+}
+div.datepicker table {
+    background-color: #333 !important;
 }
 .name-line {
     color: white !important;
@@ -141,12 +180,18 @@ a:hover {
 .nav-divider {
     color: white !important;
 }
+div.dataTables_wrapper tr{
+    background-color: #333 !important;
+}
+.dropdown-menu {
+    background-color: #333 !important;
+}
 .thumbnail-container, .thumbnail-container:hover {
     background-color: #333 !important;
 }
 tbody tr.hasThumbnails:hover td {
     background-color: #333 !important;
-   }
+}
 #dropdownProfileMenu {
     color: white !important;
 }
@@ -160,4 +205,7 @@ tbody tr.hasThumbnails:hover td {
 #message-header {
     background-color: #333 !important;
     color: white !important;
+}
+#editorcontainerbox {
+    background-color: #333 !important;
 }
