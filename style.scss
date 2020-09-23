@@ -202,6 +202,17 @@ tbody tr.hasThumbnails:hover td {
     background-color: #333 !important;
     color: white !important;
 }
+.selectize-input {
+    background-color: #444 !important;
+    color: white !important;
+}
+.selectize-input input {
+    background-color: #444 !important;
+    color: white !important;
+}
+.mail-action-bar {
+    background-color: #333 !important;
+}
 #sidebar-wrapper {
     background-color: #333 !important;
 }
@@ -210,5 +221,48 @@ tbody tr.hasThumbnails:hover td {
     color: white !important;
 }
 #editorcontainerbox {
+    background-color: #333 !important;
+}
+#no-messages:hover {
+    background-color: #444 !important;
+}
+
+.media-body > text-muted {
+    color: white !important;
+}
+.notification {
+    background: #444 !important;
+    color: white !important;
+}
+.notification-meta {
+    color: white !important;
+}
+.dropdown-container {
+    background-color: #444 !important;
+}
+.dropdown-toolbar {
+    background-color: #444 !important;
+}
+.dropdown-menu {
+    background-color: #444 !important;
+}
+.text-muted {
+    color: whitesmoke !important;
+    background-color: none;
+}
+#no-messages-in-list:hover {
+    background-color: #555 !important;
+
+}
+.file-universal-dropzone-hint {
+    background-color: #333 !important;
+}
+button .close {
+    background-color: #666 !important;
+}
+.close {
+    background-color: gray !important;
+}
+.unread, .unread:hover {
     background-color: #333 !important;
 }
