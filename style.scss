@@ -1,261 +1,282 @@
 $dark: #333 !important;
+$hover: #444 !important;
+$active: #555 !important;
+$wFont: white !important;
+$bFont: black !important;  
+$none: none !important;
+$bgnNone: none !important;
+
 :root {
     --white: #{$dark};
 }
 body {
-    background-color: #333 !important;
-    color: white !important;
-}
-#topbar {
-    background-color: #333 !important;
-    border-bottom: none !important;
-}
-.content-header {
-    background-color: #333 !important;
-    border-bottom: none !important;
-}
-.panel {
-    background-color: #333 !important;
-    color: white !important;
-    border-color: #797979;
-}
-.pull-right {
-    background-color: #333 !important;
-    color: white !important;
-    border: none;
-}
-.panel-footer {
-    background-color: #333 !important;
-}
-.control {
-    background-color: #333 !important;
-}
-.btn {
-    background-color: #333 !important;
-}
-.panel-heading {
-    color: white !important;
-}
-.text-secondary {
-    color: white !important;
+    background-color: $dark;
+    color: $wFont;
 }
 .login {
-	border: none !important; 
+    border: $none; 
+}
+#topbar {
+    background-color: $dark;
+    border-bottom: $none;
+}
+.content-header {
+    background-color: $dark;
+    border-bottom: $none;
+}
+.panel {
+    background-color: $dark;
+    color: $wFont;
+    border-color: #797979;
 }
 .panel-heading {
-    background-color: #333 !important;
+    color: $wFont;
 }
-.panel-default {
-    background-color: #333 !important;
+.panel-heading, .panel-default, .panel-footer {
+    background-color: $dark;
+}
+.dataTables_info {
+    color: $wFont;
+}
+.pull-right {
+    background-color: $dark;
+    color: $wFont;
+    border: $none;
+}
+.control {
+    background-color: $dark;
+}
+.btn {
+    background-color: $dark;
+    &:hover {
+        background-color: $hover;
+    }
+    &:active {
+        background-color: $active;
+    }
+}
+.text-secondary {
+    color: $wFont;
 }
 .list-group-item {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 ul.dropdown-menu a {
-    background-color: #333 !important;
-    color: white !important;
+    background-color: $dark;
+    color: $wFont;
 }
 .divider {
-    display: none !important;
+    display: $none;
 }
 .header-breadcrumb, .header-meta, .breadcrumb, .bc {
-    background-color: #333 !important;
-    color: white !important;
+    background-color: $dark;
+    color: $wFont;
 }
 .msg-date {
-    color: white !important;
+    color: $wFont;
 }
-.message-row:hover, .message-row:active {
-    background-color: #444 !important;
+.message-row {
+    &:hover {
+        background-color: $hover;
+    }
+    &:active {
+        background-color: $active;
+    }
 }
 .table {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .tbody {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .post {
-    background-color: #333 !important;
+    background-color: $dark;
     
 }
-.batch-actions-container {
-    background-color: #333 !important;
+.mail-iframe {
+    background-color: $hover;
 }
-a:hover {
-    background-color: #444 !important;
+.batch-actions-container {
+    background-color: $dark;
+}
+a {
+    &:hover {
+        background-color: $hover;
+    }
 }
 .post-info {
-    color: white !important;
+    color: $wFont;
 }
 .post-fold-toggle {
-    background-color: #444 !important;
+    background-color: $hover;
 }
 .unfold-container {
-    background-color: #333 !important;
-    color: white !important;
+    background-color: $dark;
+    color: $wFont;
 }
 .well {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .info {
-    background-color: #444 !important;
+    background-color: $hover;
 }
 .list-check {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .read {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .odd {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .even:hover {
-    background-color: #444 !important;
-    color: white !important;
+    background-color: $hover;
+    color: $wFont;
 }
 .warning td {
     background-color: #e85757 !important;
-    color: black !important;
+    color: $bFont;
 }
 .success {
-    color: black !important;
+    color: $bFont;
 }
 .info td {
-    color: black !important;
+    color: $bFont;
 }
 .item-label {
-    color: white !important;
+    color: $wFont;
 }
 .chat-overlay {
-    background-color: #333 !important;
-    color: white !important;
-    box-shadow: 0 0 9px 0 #555 !important;
+    background-color: $dark;
+    color: $wFont;
+    box-shadow: 0 0 9px 0 $active;
 }
 .chat-select-header {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .chat-select-button {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .chat-select-button:hover {
-    background-color: #444 !important;
+    background-color: $hover;
 }
 div.date-container div {
-    background-color: #555 !important;
+    background-color: $active;
 }
 div.room-event div {
-    background-color: #555 !important;
+    background-color: $active;
 }
 .selectable:hover {
-    background-color: #444 !important;
+    background-color: $hover;
 }
 .date {
-    color: white !important;
+    color: $wFont;
 }
 .message-line {
-    color: white !important;
+    color: $wFont;
 }
 .last-message {
-    color: white !important;
+    color: $wFont;
 }
 .form-control {
-    background-color: #444 !important;
-    color: white !important;
-    border: none !important;    
+    background-color: $hover;
+    color: $wFont;
+    border: $none;    
 }
 .modal-header, .modal-content {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .fc-toolbar, .table-bordered, div.fc div table tbody td{
-    background-color: #333 !important;
-    color: white !important;
-
+    background-color: $dark;
+    color: $wFont;
 }
 div.datepicker table {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .name-line {
-    color: white !important;
+    color: $wFont;
 }
 #menu-wrapper {
-    color: white !important;
+    color: $wFont;
 }
 .nav-divider {
-    color: white !important;
+    color: $wFont;
 }
 div.dataTables_wrapper tr{
-    background-color: #333 !important;
+    background-color: $dark;
 }
 .dropdown-menu {
-    background-color: #333 !important;
+    background-color: $dark;
 }
-.thumbnail-container, .thumbnail-container:hover {
-    background-color: #333 !important;
+.thumbnail-container {
+    background-color: $dark;
+    &:hover{
+        background-color: $hover;
+    }
 }
 tbody tr.hasThumbnails:hover td {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 #dropdownProfileMenu {
-    color: white !important;
+    color: $wFont;
 }
 .legal-notice {
-    background-color: #333 !important;
-    color: white !important;
+    background-color: $dark;
+    color: $wFont;
 }
 .selectize-input {
-    background-color: #444 !important;
-    color: white !important;
+    background-color: $hover;
+    color: $wFont;
 }
 .selectize-input input {
-    background-color: #444 !important;
-    color: white !important;
+    background-color: $hover;
+    color: $wFont;
 }
 .mail-action-bar {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 #sidebar-wrapper {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 #message-header {
-    background-color: #333 !important;
-    color: white !important;
+    background-color: $dark;
+    color: $wFont;
 }
 #editorcontainerbox {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 #no-messages:hover {
-    background-color: #444 !important;
+    background-color: $hover;
 }
-
 .media-body > text-muted {
-    color: white !important;
+    color: $wFont;
 }
 .notification {
-    background: #444 !important;
-    color: white !important;
+    background: $hover;
+    color: $wFont;
 }
 .notification-meta {
-    color: white !important;
+    color: $wFont;
 }
 .dropdown-container {
-    background-color: #444 !important;
+    background-color: $hover;
 }
 .dropdown-toolbar {
-    background-color: #444 !important;
+    background-color: $hover;
 }
 .dropdown-menu {
-    background-color: #444 !important;
+    background-color: $hover;
 }
 .text-muted {
     color: whitesmoke !important;
     background-color: none;
 }
 #no-messages-in-list:hover {
-    background-color: #555 !important;
+    background-color: $active;
 
 }
 .file-universal-dropzone-hint {
-    background-color: #333 !important;
+    background-color: $dark;
 }
 button .close {
     background-color: #666 !important;
@@ -263,9 +284,12 @@ button .close {
 .close {
     background-color: gray !important;
 }
-.unread, .unread:hover {
-    background-color: #333 !important;
+.unread {
+    background-color: $dark;
+    &:hover {
+        background-color: $hover;
+    }
 }
 .panel-body > .w100 {
-    background-color: #333 !important;
+    background-color: $dark;
 }
