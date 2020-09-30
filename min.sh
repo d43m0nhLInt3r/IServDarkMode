@@ -1,1 +1,1 @@
-sassc style.scss --style compressed min.css
+sassc style.scss --style compressed min.scss
